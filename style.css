@@ -1,0 +1,186 @@
+
+    .box{
+        width: 50%;
+    }
+    .box2{
+        width: 50%;
+    }
+
+    h4{
+        margin: 0px;
+       font-style: normal;
+       font-weight: 800;
+       font-size: 28px;
+       line-height: 40px;
+    }
+    .number{
+    
+       font-style: normal;
+       font-weight: normal;
+       font-size: 16px;
+ }
+  #heading-left{
+      width: 50%;
+      display: inline-block;
+      position: relative;
+      left:270px;
+    
+  }
+  #heading-rigth{
+      width: 49%;
+      display: inline-block;
+     
+
+  }
+  #wrapper{
+      margin: 0px auto;
+      padding-left: 50px;
+      padding-right: 50px;
+      
+  }
+  h2{
+    position: absolute;
+    top: 290px;
+    right: 670px;
+  }
+ #paragraph{
+    position: absolute;
+    top: 350px;
+    right: 410px;
+    width: 350px;
+    height: 150px; 
+  }
+  #start a{
+    font-weight: bold;
+    position: absolute;
+    top: 490px;
+    right: 410px;
+    width: 350px; 
+    text-decoration: none;
+  }
+  .air{
+    position: absolute;
+    bottom: 50px;
+    left: 450px;
+    width: 60px;
+    height: 50px;
+    }
+  .hub{
+    position: absolute;
+    bottom: 50px;
+    left: 550px;
+    width: 60px;
+    height: 40px; 
+  }
+  .google{
+    position: absolute;
+    bottom: 50px;
+    left: 650px;
+    width: 60px;
+    height: 40px;
+  }
+  .micro{
+    position: absolute;
+    bottom: 50px;
+    left: 750px;
+    width: 60px;
+    height: 40px;
+  }
+  .wal{
+    position: absolute;
+    bottom: 50px;
+    left: 850px;
+    width: 70px;
+    height: 40px;
+  }
+  .fed{
+    position: absolute;
+    bottom: 50px;
+    left: 950px;
+    width: 60px;
+    height: 40px;
+  }
+  #heading2{
+    width: 50%;
+    display: inline-block;
+    position: relative;
+    left:320px;
+    top: 580px;
+    font-size: 25px;
+}
+#paragraph2{
+    position: absolute;
+    top: 750px;
+    right: 340px;
+    width: 416px;
+    height: 150px; 
+}
+.cover{
+    position: absolute;
+    top: 880px;
+    left: 330px;
+    width: 830px;
+    height: 300px;
+}
+.manage{
+    width: 50%;
+    display: inline-block;
+    position: relative;
+    left:320px;
+    top:1000px;
+    font-size: 35px;  
+    background-color: turquoise; 
+}
+  .paragraph3{
+
+    position: absolute;
+    top: 150px;
+    right: 0px;
+    width: 752px;
+    height: 100px; 
+    font-size: 18px;
+    background-color: turquoise;
+    
+  }
+  .get{
+    position: absolute;
+    top: 1530px;
+    right: 439px;
+    width: 752px;
+    height: 100px; 
+    font-size: 18px;
+    background-color: turquoise;
+  }
+  .app1{
+    position: absolute;
+    top:5px;
+    right:665px;
+    width: 85px;
+    height: 90px;
+    
+  }
+  .app2{
+    
+    position: absolute;
+    top:0px;
+    right:570px;
+    width: 80px;
+    height: 100px;
+
+  } 
+  .iphone1{
+    position: absolute;
+    top:1200px;
+    right:460px;
+    width: 250px;
+    height: 350px;
+
+  }
+  .iphone2{
+    position:absolute;
+    top:1350px;
+    right:280px;
+    width: 300px;
+    height: 380px;
+
+  }
