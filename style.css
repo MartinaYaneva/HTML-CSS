@@ -1,186 +1,210 @@
-
-    .box{
-        width: 50%;
-    }
-    .box2{
-        width: 50%;
-    }
-
-    h4{
-        margin: 0px;
-       font-style: normal;
-       font-weight: 800;
-       font-size: 28px;
-       line-height: 40px;
-    }
-    .number{
-    
-       font-style: normal;
-       font-weight: normal;
-       font-size: 16px;
+ .box {
+     width: 50%;
  }
-  #heading-left{
-      width: 50%;
-      display: inline-block;
-      position: relative;
-      left:270px;
-    
-  }
-  #heading-rigth{
-      width: 49%;
-      display: inline-block;
+ 
+ .box2 {
+     width: 50%;
+ }
+ 
+ h4 {
+     margin: 0px;
+     font-style: normal;
+     font-weight: 800;
+     font-size: 20px;
+     line-height: 40px;
+ }
+ 
+ .number {
+     font-style: normal;
+     font-weight: normal;
+     font-size: 16px;
+ }
+ 
+ #header {
+     display: flex;
+     padding-left: 10px;
      
-
-  }
-  #wrapper{
-      margin: 0px auto;
-      padding-left: 50px;
-      padding-right: 50px;
-      
-  }
-  h2{
-    position: absolute;
-    top: 290px;
-    right: 670px;
-  }
- #paragraph{
-    position: absolute;
-    top: 350px;
-    right: 410px;
-    width: 350px;
-    height: 150px; 
-  }
-  #start a{
-    font-weight: bold;
-    position: absolute;
-    top: 490px;
-    right: 410px;
-    width: 350px; 
-    text-decoration: none;
-  }
-  .air{
-    position: absolute;
-    bottom: 50px;
-    left: 450px;
-    width: 60px;
-    height: 50px;
-    }
-  .hub{
-    position: absolute;
-    bottom: 50px;
-    left: 550px;
-    width: 60px;
-    height: 40px; 
-  }
-  .google{
-    position: absolute;
-    bottom: 50px;
-    left: 650px;
-    width: 60px;
-    height: 40px;
-  }
-  .micro{
-    position: absolute;
-    bottom: 50px;
-    left: 750px;
-    width: 60px;
-    height: 40px;
-  }
-  .wal{
-    position: absolute;
-    bottom: 50px;
-    left: 850px;
-    width: 70px;
-    height: 40px;
-  }
-  .fed{
-    position: absolute;
-    bottom: 50px;
-    left: 950px;
-    width: 60px;
-    height: 40px;
-  }
-  #heading2{
-    width: 50%;
-    display: inline-block;
-    position: relative;
-    left:320px;
-    top: 580px;
-    font-size: 25px;
-}
-#paragraph2{
-    position: absolute;
-    top: 750px;
-    right: 340px;
-    width: 416px;
-    height: 150px; 
-}
-.cover{
-    position: absolute;
-    top: 880px;
-    left: 330px;
-    width: 830px;
-    height: 300px;
-}
-.manage{
-    width: 50%;
-    display: inline-block;
-    position: relative;
-    left:320px;
-    top:1000px;
-    font-size: 35px;  
-    background-color: turquoise; 
-}
-  .paragraph3{
-
-    position: absolute;
-    top: 150px;
-    right: 0px;
-    width: 752px;
-    height: 100px; 
-    font-size: 18px;
-    background-color: turquoise;
+ }
+ 
+ #heading-left {
+     flex-grow: 1;
+ }
+ 
+ #heading-rigth {
+     flex-grow: 1;
+     
+ }
+ 
+ #wrapper {
+     width: 720px;
+     margin: 0px auto;
+     background-color:whitesmoke;
+     outline: 1px solid wheat;
+ }
+ 
+ #headline {
+     display: flex;
+     padding-left: 10px;
+     padding-right: 10px;
+ }
+ 
+ .img1 {
+     clip-path: inset(0px 0px 100px 00px);
+     width: 280px;
+     height: 350px;
+     
+     background-color: lightgrey;
     
-  }
-  .get{
-    position: absolute;
-    top: 1530px;
-    right: 439px;
-    width: 752px;
-    height: 100px; 
-    font-size: 18px;
-    background-color: turquoise;
-  }
-  .app1{
-    position: absolute;
-    top:5px;
-    right:665px;
-    width: 85px;
-    height: 90px;
+ }
+ 
+ .air {
+     padding-left: 150px;
+     width: 60px;
+     height: 40px;
+ }
+ 
+ .hub {
+     width: 60px;
+     height: 40px;
+     padding-left: 20px;
+ }
+ 
+ .google {
+     width: 60px;
+     height: 40px;
+     padding-left: 20px;
+ }
+ 
+ .micro {
+     width: 60px;
+     height: 40px;
+     padding-left: 20px;
+ }
+ 
+ .wal {
+     width: 60px;
+     height: 40px;
+     padding-left: 20px;
+ }
+ 
+ .fed {
+     width: 60px;
+     height: 40px;
+     padding-left: 20px;
+ }
+ 
+ .cover {
+     padding-top: 50px;
+     padding-bottom: 50px;
+     padding-left: 10px;
+     width: 700px;
+     height: 270px;
+ }
+ 
+ .iphone {
+     position: absolute;
+     width: 150px;
+     height: 230px;
+     clip-path: inset(70px 0px 0px 0px);
+     top: 30px;
+     left: 10px;
+ }
+ 
+ .iphone2 {
+     position: absolute;
+     width: 150px;
+     height: 230px;
+     clip-path: inset(0px 0px 50px 0px);
+     top: 165px;
+     left: 140px;
+ }
+ 
+ #down {
+     display: flex;
+     background-color: #2EC5CE;
+     width: 100%;
+     padding-left: 50px;
+     padding-right: 50px;
+     box-sizing: border-box;
+ }
+ 
+ .get {
+     font-size: 18px;
+     line-height: 28px;
+ }
+ 
+ .app1 {
+     width: 100px;
+     padding-top: 10px;
+ }
+ 
+ .app2 {
+     width: 100px;
+     height: 33px;
+ }
+ 
+ 
+ #middle {
+     display: flex;
+     padding-left: 10px;
+     padding-right: 10px;
+ }
+ #middle p {
+     margin-right: 30px;
+     
+ }
+ 
+ #middle>* {
+     width: 50%;
+ }
+ 
+ .phone-img {
+     position: relative;
+     bottom: 100px;
+ }
+ 
+ footer {
+     display: flex;
+     justify-content: space-between;
+     padding-left: 20px;
+     padding-right: 20px;
+     background-color: #0B0D17;
+ }
+ 
+ .footer-right {
+     font-size: 18px;
+     color: #D9DBE1;
+     display: flex;
+     flex-direction: column;
+     padding-top: 20px;
+     padding-right: 50px;
+     line-height: 50px;
     
-  }
-  .app2{
-    
-    position: absolute;
-    top:0px;
-    right:570px;
-    width: 80px;
-    height: 100px;
+     
+ }
+ .app3 {
+    width: 100px;
+    height: 33px;
+  
+}
 
-  } 
-  .iphone1{
-    position: absolute;
-    top:1200px;
-    right:460px;
-    width: 250px;
-    height: 350px;
-
-  }
-  .iphone2{
-    position:absolute;
-    top:1350px;
-    right:280px;
-    width: 300px;
-    height: 380px;
-
-  }
+.app4 {
+    width: 100px;
+    height: 33px;
+    padding-top: 5px;
+   
+}
+ 
+ .footer-left {
+     display: flex;
+     flex-direction: column;
+     color: white;
+ }
+ .logo {
+    width:30x;
+    height: 20px;
+}
+ 
+  .footer-left a {
+     color: white;
+ }
